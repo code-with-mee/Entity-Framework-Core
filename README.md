@@ -7,7 +7,7 @@
 4 Add connection
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
-            optionsBuilder.UseSqlServer(@"data source=BLOCKCHAINCAMBO\SQLDEV2216;database=Demo;trusted_connection=true;TrustServerCertificate=Yes");
+            optionsBuilder.UseSqlServer(@"data source=BLOCKCHAINCAMBO\SQLDEV2216;database=POS;trusted_connection=true;TrustServerCertificate=Yes");
         }
 5 Add DbSet Model
 6 Add-Migration MigrationName
